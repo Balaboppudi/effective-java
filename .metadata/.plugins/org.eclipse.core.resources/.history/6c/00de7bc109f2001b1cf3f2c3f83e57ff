@@ -1,0 +1,48 @@
+
+public class Employee {
+
+	private Integer empId;
+	private Integer salary;
+	private String name;
+	private Syring departmant;
+	
+	public Employee() {
+		
+	}
+	
+	public Employee(Integer empId, Integer salary, String name, Integer departmant) {
+		super();
+		this.empId = empId;
+		this.salary = salary;
+		this.name = name;
+		this.departmant = departmant;
+	}
+	public Integer getEmpId() {
+		return empId;
+	}
+	public void setEmpId(Integer empId) {
+		this.empId = empId;
+	}
+	public Integer getSalary() {
+		return salary;
+	}
+	public void setSalary(Integer salary) {
+		this.salary = salary;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getDepartmant() {
+		return departmant;
+	}
+	public void setDepartmant(Integer departmant) {
+		this.departmant = departmant;
+	}
+	
+	
+	
+	
+}

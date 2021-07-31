@@ -1,0 +1,15 @@
+import java.util.Objects;
+import java.util.function.Predicate;
+
+public class EmployeeDetails {
+	
+	
+	
+	public Employee getNameById(Integer id) throws IllegalArgumentException{
+		Objects.requireNonNull(id);
+		Predicate<Employee> idFinder = (empId)->empId.equals(id);
+	return	EmployeesContainer.getEmployees().stream().filter(idFinder).findFirst().orElseThrow(IllegalArgumentException::new);
+		
+	}
+
+}

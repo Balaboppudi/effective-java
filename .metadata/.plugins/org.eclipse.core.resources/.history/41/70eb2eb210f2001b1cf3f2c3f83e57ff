@@ -1,0 +1,15 @@
+import java.util.Date;
+
+public class TestDefensive {
+
+	public static void main(String[] args) throws Exception {
+		
+		Date startDate=new Date();
+		Date endDate=new Date();
+		endDate.setYear(2000);
+		new PeriodNonDefensive(endDate, startDate);
+		
+
+	}
+
+}

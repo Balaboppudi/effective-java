@@ -1,0 +1,15 @@
+import java.util.List;
+
+public class DesignMetods {
+
+	public static void main(String[] args) {
+		List<String> list=List.of("A","B","C","A","C","A","D");
+System.out.println(fistIndexOfSubList(list.subList(2, 6),"A"));
+	}
+
+	private static int fistIndexOfSubList(List<String> subList, String element) {
+		
+		return 0;
+	}
+	
+}
